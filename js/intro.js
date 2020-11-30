@@ -22,7 +22,7 @@ document.getElementById("next").addEventListener("click", function(){
         intro.style.left="60vw";
     }
     else if (counter==4){
-        intro.innerHTML="shovel after shovel, as X dug deeper into the gro-- <b>THUMP.</b> <br> There's our time capsule.";
+        intro.innerHTML="shovel after shovel, as X dug deeper into the gro-- <em><b>THUMP.</b></em> <br> There's our time capsule.";
         intro.style.top="60vh";
         intro.style.left="68vw";
     }

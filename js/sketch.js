@@ -25,7 +25,7 @@ book.onclick = function(){
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
     console.log(counter);
-    if(counter>=2){
+    if(counter>=3){
         document.getElementById("msg").style.opacity=1;
     }
 }
@@ -35,7 +35,7 @@ chess.onclick = function(){
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
     console.log(counter);
-    if(counter>=2){
+    if(counter>=3){
         document.getElementById("msg").style.opacity=1;
     }
 }
@@ -45,7 +45,7 @@ recipe.onclick = function(){
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
     console.log(counter);
-    if(counter>=2){
+    if(counter>=3){
         document.getElementById("msg").style.opacity=1;
     }
 }
@@ -55,7 +55,7 @@ paper.onclick = function(){
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
     console.log(counter);
-    if(counter>=2){
+    if(counter>=3){
         document.getElementById("msg").style.opacity=1;
     }
 }
@@ -65,7 +65,7 @@ ring.onclick = function(){
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
     console.log(counter);
-    if(counter>=2){
+    if(counter>=3){
         document.getElementById("msg").style.opacity=1;
     }
 }
@@ -75,7 +75,7 @@ photo.onclick = function(){
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
     console.log(counter);
-    if(counter>=2){
+    if(counter>=3){
         document.getElementById("msg").style.opacity=1;
     }
 }
