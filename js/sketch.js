@@ -2,7 +2,7 @@ let counter=0;
 
 console.log(counter);
 let book = document.getElementById("book");
-let chess = document.getElementById("chess");
+let doll = document.getElementById("doll");
 let recipe = document.getElementById("recipe");
 let paper = document.getElementById("paper");
 let ring = document.getElementById("ring");
@@ -29,7 +29,7 @@ book.onclick = function(){
         document.getElementById("msg").style.opacity=1;
     }
 }
-chess.onclick = function(){
+doll.onclick = function(){
     counter++;
     modal.style.display = "block";
     modalImg.src = this.src;
@@ -91,7 +91,7 @@ span.onclick = function() {
 
 
 
-document.getElementById("back").addEventListener("click", function(){
-    window.location="index.html";
-});
+// document.getElementById("back").addEventListener("click", function(){
+//     window.location="index.html";
+// });
 
