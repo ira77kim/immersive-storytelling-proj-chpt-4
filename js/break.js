@@ -12,4 +12,8 @@ document.getElementById("forgive").addEventListener("click",function(){
 document.getElementById("notforgive").addEventListener("click",function(){
     document.getElementById("forgive").remove();
     document.getElementById("afterdecision").innerHTML="After that day, my life was ruined. I lost my friends and I could never stand on the stage again. How could I ever forgive her for this? ";
+    back.innerHTML="<u>Continue going through the items in the time capsule >></u>";
+    back.addEventListener("click",function(){
+        window.location="prelast.html";
+    })
 });
