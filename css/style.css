@@ -24,7 +24,7 @@ h1{
 }
 #next{
     position: absolute;
-    margin-top: 70vh;
+    margin-top: 80vh;
     left:50%;
     transform: translate(-50%);
     
@@ -43,6 +43,11 @@ h1{
     width:20vw;
     top:20vh;
     left:20vw;
+}
+#image{
+  position:absolute;
+  transform: translate(-50%);
+  top:35vh;
 }
 em{
   font-size: large;
@@ -80,7 +85,7 @@ em{
 #msg2{
   
   position: absolute;
-  margin-top: 70vh;
+  margin-top: 65vh;
   left:50%;
   transform: translate(-50%);
   opacity:100;
@@ -140,7 +145,7 @@ em{
     width:30vw;
   }
   #found{
-    margin-top: 35vh;
+    margin-top: 28vh;
   }
   .lastb{
     background-color: #4CAF50;
